@@ -1,31 +1,56 @@
-## GoIT Node.js Course Template Homework
+# REST API for Contact Management
 
-Виконайте форк цього репозиторію для виконання домашніх завдань (2-6)
-Форк створить репозиторій на вашому http://github.com
+This project is a RESTful API developed for managing a contact list. It allows users to create, read, update, and delete contact information. Additionally, it includes user authentication and avatar management features.
 
-Додайте ментора до колаборації
+## Introduction
 
-Для кожної домашньої роботи створюйте свою гілку.
+This API was created as a part of a learning project to understand the fundamentals of Node.js, Express, MongoDB, and implementing user authentication. It demonstrates the ability to set up a secure RESTful API service with a focus on good practices for authentication and file handling.
 
-- hw02
-- hw03
-- hw04
-- hw05
-- hw06
+## Technologies
 
-Кожна нова гілка для др повинна робитися з master
+<ul> 
+<li>Node.js</li>
+<li>Express.js</li>
+<li>MongoDB</li>
+<li>Mongoose</li>
+<li>JWT (JSON Web Tokens) for authentication</li>
+<li>Passport.js for authentication strategies</li>
+<li>Multer for file upload</li>
+<li>Jimp for image processing</li>
+<li>SendGrid for email verification</li>
+</ul>
 
-Після того, як ви закінчили виконувати домашнє завдання у своїй гілці, необхідно зробити пулл-реквест (PR). Потім додати ментора для рев'ю коду. Тільки після того, як ментор заапрувить PR, ви можете виконати мердж гілки з домашнім завданням у майстер.
+## Instalation
 
-Уважно читайте коментарі ментора. Виправте зауваження та зробіть коміт у гілці з домашнім завданням. Зміни підтягнуться у PR автоматично після того, як ви відправите коміт з виправленнями на github
-Після виправлення знову додайте ментора на рев'ю коду.
+To run this project locally, follow these steps:
 
-- При здачі домашньої роботи є посилання на PR
-- JS-код чистий та зрозумілий, для форматування використовується Prettier
+```bash
+git clone https://github.com/FVuk/REST-API-app.git
+cd your-repo-name
+npm install
+npm start
+```
 
-### Команди:
+## Usage
 
-- `npm start` &mdash; старт сервера в режимі production
-- `npm run start:dev` &mdash; старт сервера в режимі розробки (development)
-- `npm run lint` &mdash; запустити виконання перевірки коду з eslint, необхідно виконувати перед кожним PR та виправляти всі помилки лінтера
-- `npm lint:fix` &mdash; та ж перевірка лінтера, але з автоматичними виправленнями простих помилок
+Once the server is running, you can access the API endpoints.
+
+## Features
+
+<ul>
+<li>CRUD operations for contact management</li>
+<li>User registration, login, and email verification</li>
+<li>Password encryption</li>
+<li>JWT based authentication with Passport</li>
+<li>Avatar upload with image resizing</li>
+<li>Email notifications for account verification (SendGrid)</li>
+<li>Swagger documentation for easy API testing and interaction</li>
+</ul>
+
+## License
+
+This project is open-sourced under the [MIT License](LICENSE).
+
+## Author
+
+[Filip Vukić] (https://github.com/FVuk)
