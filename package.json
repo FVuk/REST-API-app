@@ -10,6 +10,7 @@
     "lint:fix": "eslint --fix **/*.js"
   },
   "dependencies": {
+    "@sendgrid/mail": "^7.7.0",
     "bcrypt": "^5.1.1",
     "cors": "2.8.5",
     "cross-env": "7.0.3",
@@ -41,7 +42,8 @@
     "#services/*": "./services/*",
     "#auth/*": "./auth/*",
     "#utils/*": "./utils/*",
-    "#config/*": "./config/*"
+    "#config/*": "./config/*",
+    "#validators/*": "./validators/*"
   },
   "description": "Wykonaj forka tego repozytorium, aby wykonywać zadania domowe (2-6). Fork utworzy repozytorium na Twoim koncie na http://github.com",
   "main": ".eslintrc.js",

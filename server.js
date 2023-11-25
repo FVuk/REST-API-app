@@ -7,6 +7,7 @@ import {
   AVATAR_DIR,
   TEMP_DIR,
 } from "./utils/avatar/avatar.variables.js";
+import "./config/passport.config.js";
 
 const PORT = 3000;
 
